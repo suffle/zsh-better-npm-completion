@@ -128,7 +128,7 @@ _zbnc_zsh_better_npm_completion() {
     i|install)
       _zbnc_npm_install_completion
       ;;
-    r|uninstall)
+    r|uninstall|update|upgrade)
       _zbnc_npm_uninstall_completion
       ;;
     run)
